@@ -155,7 +155,14 @@ header {
 	}
 }
 
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: @brand-success;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus {
   background-color: @brand-success;
   color:@brand-primary;
 }
